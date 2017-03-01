@@ -316,6 +316,10 @@ function gwolle_gb_frontend_write( $shortcode_atts, $shortcode ) {
 			$output .= gwolle_gb_get_emoji();
 			$output .= '</div>';
 		}
+		$output .= '<div class="label"><label for="gwolle_gb_attachment" class="text-info">Image:';
+		$output .= '</label></div>
+				<div class="input"><input id="gwolle_gb_attachment" name="gwolle_gb_attachment" type="file" />';
+		$output .= '</div>';
 
 		$output .= '</div>'; // .input
 

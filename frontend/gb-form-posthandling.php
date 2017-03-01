@@ -5,6 +5,247 @@ if ( strpos($_SERVER['PHP_SELF'], basename(__FILE__) )) {
 	die('No direct calls allowed!');
 }
 
+            define('ATT_MAX',   10);
+
+        function getMimeTypes()
+        {
+            return array(
+                'JPG' => array(
+                    'image/jpeg',
+                    'image/jpg',
+                    'image/jp_',
+                    'application/jpg',
+                    'application/x-jpg',
+                    'image/pjpeg',
+                    'image/pipeg',
+                    'image/vnd.swiftview-jpeg',
+                    'image/x-xbitmap'),
+                'GIF' => array(
+                    'image/gif',
+                    'image/x-xbitmap',
+                    'image/gi_'),
+                'PNG' => array(
+                    'image/png',
+                    'application/png',
+                    'application/x-png'),
+/*
+                'DOCX'=> 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                'RAR'=> 'application/x-rar-compressed',
+                'ZIP' => array(
+                    'application/zip',
+                    'application/x-zip',
+                    'application/x-zip-compressed',
+                    'application/x-compress',
+                    'application/x-compressed',
+                    'multipart/x-zip'),
+                'DOC' => array(
+                    'application/msword',
+                    'application/doc',
+                    'application/text',
+                    'application/vnd.msword',
+                    'application/vnd.ms-word',
+                    'application/winword',
+                    'application/word',
+                    'application/x-msw6',
+                    'application/x-msword'),
+                'PDF' => array(
+                    'application/pdf',
+                    'application/x-pdf',
+                    'application/acrobat',
+                    'applications/vnd.pdf',
+                    'text/pdf',
+                    'text/x-pdf'),
+                'PPT' => array(
+                    'application/vnd.ms-powerpoint',
+                    'application/mspowerpoint',
+                    'application/ms-powerpoint',
+                    'application/mspowerpnt',
+                    'application/vnd-mspowerpoint',
+                    'application/powerpoint',
+                    'application/x-powerpoint',
+                    'application/x-m'),
+                'PPTX'=> 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+                'PPS' => 'application/vnd.ms-powerpoint',
+                'PPSX'=> 'application/vnd.openxmlformats-officedocument.presentationml.slideshow',
+                'ODT' => array(
+                    'application/vnd.oasis.opendocument.text',
+                    'application/x-vnd.oasis.opendocument.text'),
+                'XLS' => array(
+                    'application/vnd.ms-excel',
+                    'application/msexcel',
+                    'application/x-msexcel',
+                    'application/x-ms-excel',
+                    'application/vnd.ms-excel',
+                    'application/x-excel',
+                    'application/x-dos_ms_excel',
+                    'application/xls'),
+                'XLSX'=> 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                'MP3' => array(
+                    'audio/mpeg',
+                    'audio/x-mpeg',
+                    'audio/mp3',
+                    'audio/x-mp3',
+                    'audio/mpeg3',
+                    'audio/x-mpeg3',
+                    'audio/mpg',
+                    'audio/x-mpg',
+                    'audio/x-mpegaudio'),
+                'M4A' => 'audio/mp4a-latm',
+                'OGG' => array(
+                    'audio/ogg',
+                    'application/ogg'),
+                'WAV' => array(
+                    'audio/wav',
+                    'audio/x-wav',
+                    'audio/wave',
+                    'audio/x-pn-wav'),
+                'WMA' => 'audio/x-ms-wma',
+                'MP4' => array(
+                    'video/mp4v-es',
+                    'audio/mp4'),
+                'M4V' => array(
+                    'video/mp4',
+                    'video/x-m4v'),
+                'MOV' => array(
+                    'video/quicktime',
+                    'video/x-quicktime',
+                    'image/mov',
+                    'audio/aiff',
+                    'audio/x-midi',
+                    'audio/x-wav',
+                    'video/avi'),
+                'WMV' => 'video/x-ms-wmv',
+                'AVI' => array(
+                    'video/avi',
+                    'video/msvideo',
+                    'video/x-msvideo',
+                    'image/avi',
+                    'video/xmpg2',
+                    'application/x-troff-msvideo',
+                    'audio/aiff',
+                    'audio/avi'),
+                'MPG' => array(
+                    'video/avi',
+                    'video/mpeg',
+                    'video/mpg',
+                    'video/x-mpg',
+                    'video/mpeg2',
+                    'application/x-pn-mpg',
+                    'video/x-mpeg',
+                    'video/x-mpeg2a',
+                    'audio/mpeg',
+                    'audio/x-mpeg',
+                    'image/mpg'),
+                'OGV' => 'video/ogg',
+                '3GP' => array(
+                    'audio/3gpp',
+                    'video/3gpp'),
+                '3G2' => array(
+                    'video/3gpp2',
+                    'audio/3gpp2'),
+                'FLV' => 'video/x-flv',
+                'WEBM'=> 'video/webm',
+*/
+            );
+        }
+
+
+        function getAllowedFileExtensions()
+        {
+            $return = array();
+            $pluginFileTypes = getMimeTypes();
+            foreach($pluginFileTypes as $key => $value){
+               $return[] = strtolower($key);
+            }
+            return $return;
+        }
+
+
+        function checkAttachment($data)
+        {
+          file_put_contents( "/tmp/checkin.txt", $_FILES['gwolle_gb_attachment']['size']);
+            if($_FILES['gwolle_gb_attachment']['size'] > 0 && $_FILES['gwolle_gb_attachment']['error'] == 0){
+          file_put_contents( "/tmp/here.txt", 'x');
+
+                $fileInfo = pathinfo($_FILES['gwolle_gb_attachment']['name']);
+                $fileExtension = strtolower($fileInfo['extension']);
+
+                if(function_exists('finfo_file')){
+                    $fileType = finfo_file(finfo_open(FILEINFO_MIME_TYPE), $_FILES['gwolle_gb_attachment']['tmp_name']);
+                } elseif(function_exists('mime_content_type')) {
+                    $fileType = mime_content_type($_FILES['gwolle_gb_attachment']['tmp_name']);
+                } else {
+                    $fileType = $_FILES['gwolle_gb_attachment']['type'];
+                }
+
+                // Is: allowed mime type / file extension, and size? extension making lowercase, just to make sure
+                if (!in_array($fileType, getMimeTypes()) || !in_array(strtolower($fileExtension), getAllowedFileExtensions()) || $_FILES['gwolle_gb_attachment']['size'] > (ATT_MAX * 1048576)) { // file size from admin
+                    return "Fichier trop gros, ou pas un format accept&equote;";
+                }
+
+            } elseif($_FILES['gwolle_gb_attachment']['error'] == 2) {
+                return '<strong>ERROR:</strong> The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form.';
+            } elseif($_FILES['gwolle_gb_attachment']['error'] == 3) {
+                return '<strong>ERROR:</strong> The uploaded file was only partially uploaded. Please try again later.';
+            } elseif($_FILES['gwolle_gb_attachment']['error'] == 6) {
+                return '<strong>ERROR:</strong> Missing a temporary folder.';
+            } elseif($_FILES['gwolle_gb_attachment']['error'] == 7) {
+                return '<strong>ERROR:</strong> Failed to write file to disk.';
+            } elseif($_FILES['gwolle_gb_attachment']['error'] == 7) {
+                return '<strong>ERROR:</strong> A PHP extension stopped the file upload.';
+            }
+        }
+
+        /**
+         * Inserts file attachment from your comment to wordpress
+         * media library, assigned to post.
+         *
+         * @param $fileHandler
+         * @param $postId
+         * @return mixed
+         */
+
+        function insertAttachment($fileHandler, $postId)
+        {
+            require_once(ABSPATH . "wp-admin" . '/includes/image.php');
+            require_once(ABSPATH . "wp-admin" . '/includes/file.php');
+            require_once(ABSPATH . "wp-admin" . '/includes/media.php');
+            return media_handle_upload($fileHandler, $postId);
+        }
+
+
+        /**
+         * Save attachment to db, with all sizes etc. Assigned
+         * to post, or not.
+         *
+         * @param $commentId
+         */
+
+        function saveAttachment($entry_id)
+        {
+//        echo "SAVING!";
+            if($_FILES['gwolle_gb_attachment']['size'] > 0){
+          file_put_contents( "/tmp/a.txt", 'saving2');
+                $bindId = 0;
+                $attachId = insertAttachment('gwolle_gb_attachment', $bindId);
+		global $wpdb;
+
+			$sql = "
+				UPDATE $wpdb->gwolle_gb_entries
+				SET
+					attachment_id = %d
+				WHERE
+					id = %d
+				";
+			$result = $wpdb->query(
+					$wpdb->prepare( $sql, 
+                                        array($attachId, $entry_id))
+				);
+
+                unset($_FILES);
+            }
+        }
+
 
 /*
  * Save new entries to the database, when valid.
@@ -136,6 +377,11 @@ function gwolle_gb_frontend_posthandling() {
 				}
 			}
 		}
+
+                $attachment_error = checkAttachment($form_setting);
+                if  ($attachment_error) {
+                   gwolle_gb_add_message( '<p class="error_fields"><strong>'.$attachment_error.'</strong></p>',true, 'content');
+                }
 
 		/* Custom Anti-Spam */
 		if ( isset($form_setting['form_antispam_enabled']) && $form_setting['form_antispam_enabled']  === 'true' ) {
@@ -344,6 +590,8 @@ function gwolle_gb_frontend_posthandling() {
 
 		if ( $save ) {
 			// We have been saved to the Database.
+
+                        saveAttachment($entry->get_id());
 
 			gwolle_gb_add_message( '<p class="entry_saved">' . __('Thank you for your entry.','gwolle-gb') . '</p>', false, false );
 			if ( $entry->get_ischecked() == 0 || $entry->get_isspam() == 1 ) {
