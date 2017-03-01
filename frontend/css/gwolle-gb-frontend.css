@@ -1,0 +1,263 @@
+
+/*
+ * CSS for the Frontend of Gwolle Guestbook plugin.
+ */
+
+
+#gwolle_gb {
+	clear: left;
+	position: relative;
+}
+
+#gwolle_gb span {
+	display: inline;
+}
+
+#gwolle_gb .gwolle_gb_hide {
+	display: none;
+}
+#gwolle_gb .gwolle_gb_invisible {
+	visibility: hidden;
+}
+
+/* Write button */
+
+#gwolle_gb_write_button {
+	margin: 20px 0 10px;
+}
+
+
+/* Write section */
+
+#gwolle_gb form#gwolle_gb_new_entry {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.gwolle_gb_float .label,
+.gwolle_gb_float .input {
+	float: left;
+}
+/* Overwrite shizzle from fancy themes */
+body .gwolle_gb_content a {
+	box-shadow: none !important; /* Fuck Twenty Sixteen and Twenty Seventeen */
+}
+
+/* Submit AJAX icon */
+#gwolle_gb .gwolle_gb_submit_ajax_icon {
+	display: none;
+	background-image: url("../images/loading.gif");
+	background-position: 4px 4px;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	padding: 13px 20px 13px 20px;
+}
+
+/* Messages / Notices */
+
+#gwolle_gb #gwolle_gb_messages {
+	border-left: 4px solid #7ad03a;
+	box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+	padding: 1px 12px;
+	margin: 5px 0 15px;
+}
+#gwolle_gb #gwolle_gb_messages.error {
+	border-left: 4px solid #dd3d36;
+}
+
+#gwolle_gb .error p, div.updated p {
+	margin: 0.5em 0;
+	padding: 2px;
+}
+
+#gwolle_gb form#gwolle_gb_new_entry .input.error, /* recaptcha */
+#gwolle_gb form#gwolle_gb_new_entry input.error,
+#gwolle_gb form#gwolle_gb_new_entry textarea.error {
+	border: 1px solid #dd3d36;
+}
+
+#gwolle_gb .label,
+#gwolle_gb .input {
+	vertical-align: top;
+}
+#gwolle_gb .label {
+	width: 30%;
+}
+#gwolle_gb .input {
+	width: 40%;
+	border: 0px;
+}
+#gwolle_gb .input input[type="text"],
+#gwolle_gb .input input[type="email"],
+#gwolle_gb .input input[type="url"],
+#gwolle_gb .input textarea {
+	width: 100%;
+}
+#gwolle_gb .input textarea {
+	height: 150px;
+}
+#gwolle_gb .clearBoth {
+	clear: both;
+}
+
+
+/* Page Navigation */
+
+#gwolle_gb .page-navigation {
+	width: 100%;
+	text-align: right;
+	padding: 8px 0;
+}
+#gwolle_gb .page-navigation a,
+#gwolle_gb .page-navigation span {
+	padding: 3px 5px;
+	margin: 2px;
+	color: #333;
+	background-color: #e6e6e6;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+	border: 1px solid #d2d2d2;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+}
+/* Current page */
+#gwolle_gb .page-navigation span {
+	color: #777;
+	border: 1px solid #e3e3e3;
+}
+
+
+/* Read section */
+
+
+#gwolle_gb #gwolle_gb_entries {
+	position: relative;
+}
+
+#gwolle_gb .admin-entry {
+	color: #333;
+	background-color: #e6e6e6;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+	padding-left: 5px;
+}
+#gwolle_gb .admin-entry a {
+	color: #666;
+}
+#gwolle_gb .gb-entry {
+	border-top: 1px dotted #999;
+	padding: 10px 0;
+	margin: 0;
+}
+#gwolle_gb .gwolle_gb_first {
+	border-width: 0px;
+}
+#gwolle_gb .gb-entry-count_0 {
+	border-bottom: 1px dotted #999;
+}
+
+#gwolle_gb .gb-entry .gb-author-info,
+#gwolle_gb .gb-entry .gb-entry-content {
+	display: block;
+}
+#gwolle_gb .gb-entry .gb-author-info .gb-author-avatar {
+	margin: 0 0 8px 0;
+}
+#gwolle_gb .gb-entry .gb-author-info .gb-author-name {
+	padding-left: 10px;
+	font-weight: bold;
+}
+#gwolle_gb .gb-entry .gb-entry-content {
+	padding-left: 10px;
+}
+
+/* Admin Reply */
+
+#gwolle_gb .gb-entry-admin_reply {
+	margin: 10px 0 0 40px;
+	padding: 4px 10px 4px 10px;
+	border-left: 1px dotted #999;
+}
+
+/* Infinite Scroll */
+
+#gwolle_gb .gwolle_gb_load_message {
+	display: none;
+	background-color: #eee;
+	background-image: url("../images/loading.gif");
+	background-position: 10px 13px;
+	background-repeat: no-repeat;
+	border: 1px solid #333;
+	border-radius: 5px;
+	bottom: -72px;
+	color: #333;
+	font-weight: bold;
+	margin-left: 10px;
+	padding: 15px 20px 15px 52px;
+	position: absolute;
+	z-index: 5;
+}
+#gwolle_gb .gwolle_gb_end_message {
+	padding-left: 10px;
+}
+
+/* Widget */
+
+li.gwolle_gb_widget {
+	border-bottom: 1px dotted #999;
+	padding: 3px 0;
+	margin: 0;
+}
+
+p.gwolle_gb_link {
+	padding: 3px 0;
+}
+
+/* Widget Slider */
+
+ul.gwolle_gb_widget_slider {
+	margin-left: 0;
+}
+ul.gwolle_gb_widget_slider .sss {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+ul.gwolle_gb_widget_slider li:first-child,
+li.gwolle_gb_widget.ssslide:first-child {
+	display: inline-block;
+}
+ul.gwolle_gb_widget_slider li {
+	display: none;
+	border-bottom: 0px dotted #999;
+}
+
+li.gwolle_gb_widget.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+/* Admin Bar */
+
+#wpadminbar #wp-admin-bar-gwolle-gb .ab-icon::before {
+	content: "";
+	top: 3px;
+}

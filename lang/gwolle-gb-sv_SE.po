@@ -1,0 +1,1996 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-13 14:55+0200\n"
+"PO-Revision-Date: 2015-06-13 15:01+0100\n"
+"Last-Translator: Marcel Pol <marcel@timelord.nl>\n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: actions.php:35 actions.php:36 frontend/widget.php:22
+#: frontend/widget.php:188
+msgid "Guestbook"
+msgstr "Gästbok"
+
+#: actions.php:46 actions.php:47 admin/tabs/admintab.php:36
+#: admin/tabs/readingtab.php:36
+msgid "Entries"
+msgstr "Poster"
+
+#. /editor.php
+#: actions.php:54
+msgid "Entry editor"
+msgstr "Post redaktör"
+
+#: actions.php:54 admin/page-gwolle-gb.php:85
+msgid "New entry"
+msgstr "Ny post"
+
+#. /settings.php
+#: actions.php:57 actions.php:80 admin/page-settings.php:314
+msgid "Settings"
+msgstr "Inställningar"
+
+#. /import.php
+#: actions.php:60
+msgid "Import"
+msgstr "Importera"
+
+#. /export.php
+#: actions.php:63
+msgid "Export"
+msgstr "Exportera"
+
+#: actions.php:190 actions.php:194 frontend/rss.php:70 frontend/rss.php:73
+#, fuzzy
+msgid "Guestbook Feed"
+msgstr "Gästbok"
+
+#: admin/dashboard-widget.php:116 admin/page-entries.php:696
+#: frontend/read.php:236
+msgid "Edit entry"
+msgstr "Redigera post"
+
+#: admin/dashboard-widget.php:116 admin/page-entries.php:696
+#: frontend/read.php:236
+msgid "Edit"
+msgstr "Redigera"
+
+#: admin/dashboard-widget.php:120 admin/page-editor.php:425
+#: admin/page-entries.php:699
+msgid "Check entry"
+msgstr "Markera post"
+
+#: admin/dashboard-widget.php:120 admin/page-editor.php:425
+#: admin/page-entries.php:699
+msgid "Check"
+msgstr "Markera"
+
+#: admin/dashboard-widget.php:124 admin/page-editor.php:428
+#: admin/page-entries.php:702
+msgid "Uncheck entry"
+msgstr "Avmarkera posten"
+
+#: admin/dashboard-widget.php:124 admin/page-editor.php:428
+#: admin/page-entries.php:702
+msgid "Uncheck"
+msgstr "Avmarkera"
+
+#: admin/dashboard-widget.php:128 admin/page-editor.php:431
+#: admin/page-entries.php:705
+msgid "Mark entry as spam."
+msgstr "Markera posten som spam."
+
+#: admin/dashboard-widget.php:128 admin/page-editor.php:374
+#: admin/page-editor.php:431 admin/page-entries.php:437
+#: admin/page-entries.php:705
+msgid "Spam"
+msgstr "Spam"
+
+#: admin/dashboard-widget.php:132 admin/page-editor.php:434
+#: admin/page-entries.php:708
+msgid "Mark entry as not-spam."
+msgstr "Markera inlägget som ej spam."
+
+#: admin/dashboard-widget.php:132 admin/page-editor.php:434
+#: admin/page-entries.php:708
+msgid "Not spam"
+msgstr "Ej spam"
+
+#: admin/dashboard-widget.php:136 admin/page-editor.php:437
+#: admin/page-entries.php:711
+msgid "Move entry to trash."
+msgstr "Flytta post till papperskorgen"
+
+#: admin/dashboard-widget.php:136 admin/page-editor.php:384
+#: admin/page-editor.php:437 admin/page-entries.php:441
+#: admin/page-entries.php:711
+msgid "Trash"
+msgstr "Papperskorg"
+
+#: admin/dashboard-widget.php:140 admin/page-editor.php:440
+#: admin/page-entries.php:714
+msgid "Recover entry from trash."
+msgstr "Lägg tillbaka posten från papperskorgen."
+
+#: admin/dashboard-widget.php:140 admin/page-editor.php:440
+#: admin/page-entries.php:714
+msgid "Untrash"
+msgstr "Lägg tillbaka från papperskorgen"
+
+#: admin/dashboard-widget.php:144 admin/page-editor.php:443
+#: admin/page-entries.php:717
+msgid "Please wait..."
+msgstr "Var snäll och vänta…"
+
+#: admin/dashboard-widget.php:144 admin/page-editor.php:443
+#: admin/page-entries.php:717
+msgid "Wait..."
+msgstr "Vänta…"
+
+#: admin/dashboard-widget.php:155
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: admin/dashboard-widget.php:156
+msgid "View all"
+msgstr "Läs alla"
+
+#: admin/dashboard-widget.php:157
+msgid "View new"
+msgstr "Läs nytt"
+
+#: admin/dashboard-widget.php:160
+msgid "No new and unchecked guestbook entries."
+msgstr "Inga nya eller avmarkerade poster."
+
+#: admin/dashboard-widget.php:172
+msgid "Guestbook (new entries)"
+msgstr "Gästbok (nya poster)"
+
+#: admin/installSplash.php:14
+msgid "Installation"
+msgstr "Installation"
+
+#: admin/installSplash.php:20
+msgid ""
+"Welcome!<br>It seems that either you're using this plugin for the first time "
+"or you've deleted all settings.<br>However, to use this plugin we have to "
+"setup the database tables. Good for you, we've made this as easy as possible."
+"<br>All you've got to do is click on that button below, and that's it."
+msgstr ""
+"Välkommen! <br> Det verkar som om du använder denna plugin för första gången "
+"eller att du har tagit raderat alla inställningar. <br> Men för att använda "
+"denna plugin måste ställa in databastabellerna. För att underlätta för dig, "
+"har vi gjort det så enkelt som möjligt. | Allt du behöver göra är att klicka "
+"på knappen nedan, så är det klart."
+
+#: admin/installSplash.php:26
+msgid "Sure, let's do this!"
+msgstr "Visst, låt oss göra detta!"
+
+#: admin/installSplash.php:33
+#, php-format
+msgid "Allright, we're done. <a href=\"%s\">Click here to continue...</a>"
+msgstr "Ak, vi är klara. <a href=\"%s\"> Klicka här för att fortsätta ... </a>"
+
+#: admin/installSplash.php:35
+#, php-format
+msgid ""
+"It looks like there has been an error. <a href=\"%s\">Click here to "
+"continue...</a>"
+msgstr ""
+"Det ser ut som att det blivit ett fel. <a href=\"%s\"> Klicka här för att "
+"fortsätta ... </a>"
+
+#: admin/page-editor.php:15 admin/page-entries.php:16 admin/page-export.php:17
+#: admin/page-gwolle-gb.php:278 admin/page-import.php:26
+#: admin/page-settings.php:15 admin/tabs/admintab.php:15
+#: admin/tabs/antispamtab.php:15 admin/tabs/emailtab.php:15
+#: admin/tabs/formtab.php:15 admin/tabs/readingtab.php:15
+#: admin/tabs/uninstalltab.php:18
+msgid "Cheatin&#8217; uh?"
+msgstr "Fuskar&#8217; uh?"
+
+#: admin/page-editor.php:32
+msgid "Edit guestbook entry"
+msgstr "Redigera inlägg"
+
+#: admin/page-editor.php:45
+msgid "Entry could not be found."
+msgstr "Inlägg kan inte hittas"
+
+#: admin/page-editor.php:47
+msgid "Guestbook entry (error)"
+msgstr "Gästboksinlägg (fel)"
+
+#: admin/page-editor.php:50
+msgid "New guestbook entry"
+msgstr "Gästbok (nya inlägg)"
+
+#: admin/page-editor.php:60
+msgid "Something strange happened."
+msgstr "Något konstigt hände."
+
+#: admin/page-editor.php:88
+msgid "Submitted as Spam to the Akismet service."
+msgstr "Inskickat som spam till Akismet tjänsten."
+
+#: admin/page-editor.php:97
+msgid "Submitted as Ham to the Akismet service."
+msgstr "Inskickat som Ham till Akismet tjänsten."
+
+#: admin/page-editor.php:148 admin/page-gwolle-gb.php:355
+#: admin/page-settings.php:320
+msgid "Changes saved."
+msgstr "Ändringar sparade"
+
+#: admin/page-editor.php:150 admin/page-editor.php:245
+msgid "Error happened during saving."
+msgstr "Det uppstod ett fel vid sparande."
+
+#: admin/page-editor.php:154
+msgid "Entry was not changed."
+msgstr "Posten blen ej ändrad."
+
+#: admin/page-editor.php:165
+msgid "Entry removed."
+msgstr "Posten raderad."
+
+#: admin/page-editor.php:210
+msgid "Entry has no content, even though that is mandatory."
+msgstr "Posten har inget innehåll, även om det är obligatoriskt."
+
+#: admin/page-editor.php:243
+msgid "Entry saved."
+msgstr "Post sparad."
+
+#: admin/page-editor.php:249
+msgid "Entry was not saved."
+msgstr "Post kunde inte sparas"
+
+#: admin/page-editor.php:322 admin/page-editor.php:415
+#: admin/page-editor.php:459 admin/page-editor.php:514
+#: admin/page-editor.php:549 admin/page-editor.php:566
+#: admin/page-editor.php:574 admin/page-export.php:40
+#: admin/page-import.php:338 admin/page-import.php:405
+#: admin/page-import.php:526
+msgid "Click to open or close"
+msgstr "Klicka för att öppna eller stänga"
+
+#: admin/page-editor.php:322
+msgid "Options"
+msgstr "Alternativ"
+
+#: admin/page-editor.php:343
+msgid "This entry is not yet visible."
+msgstr "Den här posten är inte synlig än."
+
+#: admin/page-editor.php:347 admin/page-editor.php:352
+msgid "This entry is Visible."
+msgstr "Den här posten är synlig."
+
+#: admin/page-editor.php:348 admin/page-editor.php:353
+msgid "This entry is Not Visible."
+msgstr "Den här posten är inte synlig."
+
+#: admin/page-editor.php:364
+msgid "Checked"
+msgstr "Markerad"
+
+#: admin/page-editor.php:392
+msgid "Remove this entry Permanently."
+msgstr "Radera denna post permanent."
+
+#: admin/page-editor.php:403
+msgid "Save"
+msgstr "Spara"
+
+#: admin/page-editor.php:415
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: admin/page-editor.php:459
+msgid "Details"
+msgstr "Detaljer"
+
+#: admin/page-editor.php:463 admin/page-entries.php:567
+#: admin/page-entries.php:583
+msgid "Author"
+msgstr "Administratör"
+
+#: admin/page-editor.php:467 admin/page-editor.php:475
+#: admin/page-editor.php:496 admin/page-editor.php:504
+#: functions/function.log.php:164
+msgid "Unknown"
+msgstr "Okänd"
+
+#: admin/page-editor.php:471
+msgid "E-Mail"
+msgstr "E-post"
+
+#: admin/page-editor.php:480 admin/page-editor.php:524
+msgid "Written"
+msgstr "Skriven"
+
+#: admin/page-editor.php:485
+msgid "Not yet"
+msgstr "Inte än"
+
+#: admin/page-editor.php:489
+msgid "Author's IP-address"
+msgstr "Administratörens IP adress"
+
+#: admin/page-editor.php:492
+msgid "Whois search for this IP"
+msgstr "Whois sökning för den här IP adressen"
+
+#: admin/page-editor.php:500
+msgid "Host"
+msgstr "Host"
+
+#: admin/page-editor.php:514
+msgid "Entry log"
+msgstr "Inläggs logg"
+
+#: admin/page-editor.php:533
+msgid "No log yet."
+msgstr "Ingel logg ännu."
+
+#: admin/page-editor.php:549 frontend/write.php:215
+msgid "Guestbook entry"
+msgstr "Gästboks inlägg"
+
+#: admin/page-editor.php:554
+#, php-format
+msgid ""
+"Line breaks will not be visible to the visitors due to your <a href=\"%s"
+"\">settings</a>."
+msgstr ""
+"Radbrytningar kommer inte att vara synliga för besökare på grund av dina <a "
+"href=\"%s\"> inställningar </a>."
+
+#: admin/page-editor.php:566 frontend/write.php:196 frontend/write.php:203
+#: admin/tabs/formtab.php:165
+msgid "Website"
+msgstr "Webbsida"
+
+#: admin/page-editor.php:569
+msgid "Example: <code>http://www.example.com/</code>"
+msgstr "Exempel: <code>http://www.example.com/</code>"
+
+#: admin/page-editor.php:574 admin/page-export.php:61
+msgid "Origin"
+msgstr "Källa"
+
+#: admin/page-entries.php:209
+msgid "entry checked."
+msgstr "Post markerad."
+
+#: admin/page-entries.php:211
+msgid "entries checked."
+msgstr "Poster markerade."
+
+#: admin/page-entries.php:213
+msgid "No entries checked."
+msgstr "Inga poster markerade."
+
+#: admin/page-entries.php:217
+msgid "entry unchecked."
+msgstr "Post omarkerad."
+
+#: admin/page-entries.php:219
+msgid "entries unchecked."
+msgstr "Poster omarkerade."
+
+#: admin/page-entries.php:221
+msgid "No entries unchecked."
+msgstr "Inga poster omarkerade."
+
+#: admin/page-entries.php:225
+msgid ""
+"entry marked as spam and submitted to Akismet as spam (if Akismet was "
+"enabled)."
+msgstr ""
+"post markerad som spam och skickad till Akismet som spam (om Akismet var "
+"aktiverad)."
+
+#: admin/page-entries.php:227
+msgid ""
+"entries marked as spam and submitted to Akismet as spam (if Akismet was "
+"enabled)."
+msgstr ""
+"poster markerade som spam och skickade till Akismet som spam (om Akismet var "
+"aktiverad)."
+
+#: admin/page-entries.php:229
+msgid "No entries marked as spam."
+msgstr "Inga poster markerade som spam."
+
+#: admin/page-entries.php:233
+msgid ""
+"entry marked as not spam and submitted to Akismet as ham (if Akismet was "
+"enabled)."
+msgstr ""
+"post markerad som ej spam och skickad till Akismet som ham (om Akismet var "
+"aktiverad)."
+
+#: admin/page-entries.php:235
+msgid ""
+"entries marked as not spam and submitted to Akismet as ham (if Akismet was "
+"enabled)."
+msgstr ""
+"poster markerade som ej spam och skickade till Akismet som ham (om Akismet "
+"var aktiverad)."
+
+#: admin/page-entries.php:237
+msgid "No entries marked as not spam."
+msgstr "Inga poster markerade som spam."
+
+#: admin/page-entries.php:241
+msgid "entry considered spam and marked as such."
+msgstr "post som anses som skräppost och markerad som sådan."
+
+#: admin/page-entries.php:243
+msgid "entries considered spam and marked as such."
+msgstr "poster som anses som skräppost och markerade som sådana."
+
+#: admin/page-entries.php:246
+msgid "entry not considered spam and marked as such."
+msgstr "post som ej anses som skräppost och markerad som sådan."
+
+#: admin/page-entries.php:248
+msgid "entries not considered spam and marked as such."
+msgstr "poster som ej anses som skräppost och markerade som sådana."
+
+#: admin/page-entries.php:251
+msgid "entry already considered spam and not changed."
+msgstr "post som redan anses som skräppost och inte ändrad."
+
+#: admin/page-entries.php:253
+msgid "entries already considered spam and not changed."
+msgstr "poster som redan anses som skräppost och inte ändrad."
+
+#: admin/page-entries.php:256
+msgid "entry already considered not spam and not changed."
+msgstr "post som redan anses som ej skräppost och ej ändrad."
+
+#: admin/page-entries.php:258
+msgid "entries already considered not spam and not changed."
+msgstr "poster som redan anses som ej skräppost och ej ändrad."
+
+#: admin/page-entries.php:262
+msgid "entry moved to trash."
+msgstr "post flyttad till papperskorgen."
+
+#: admin/page-entries.php:264
+msgid "entries moved to trash."
+msgstr "poster flyttade till papperskorgen."
+
+#: admin/page-entries.php:266
+msgid "No entries moved to trash."
+msgstr "Inga poster flyttade till papperskorgen."
+
+#: admin/page-entries.php:270
+msgid "entry recovered from trash."
+msgstr "post återställd från papperskorgen."
+
+#: admin/page-entries.php:272
+msgid "entries recovered from trash."
+msgstr "poster återställda från papperskorgen."
+
+#: admin/page-entries.php:274
+msgid "No entries recovered from trash."
+msgstr "Inga poster återställda från papperskorgen."
+
+#: admin/page-entries.php:278 admin/page-entries.php:293
+msgid "entry removed permanently."
+msgstr "Post permanent borttagen."
+
+#: admin/page-entries.php:280 admin/page-entries.php:295
+msgid "entries removed permanently."
+msgstr "Poster permanent borttagna."
+
+#: admin/page-entries.php:282 admin/page-entries.php:297
+msgid "No entries permanently removed."
+msgstr "Inga poster är permanent borttagna."
+
+#: admin/page-entries.php:329
+msgid "Please activate Akismet if you want to battle spam."
+msgstr "Aktivera Akismet om du vill motverka spam."
+
+#: admin/page-entries.php:402
+msgid "Guestbook entries"
+msgstr "Gästboks poster"
+
+#: admin/page-entries.php:424
+msgid "All"
+msgstr "Alla"
+
+#: admin/page-entries.php:429
+msgid "Unlocked"
+msgstr "Upplåst"
+
+#: admin/page-entries.php:433
+msgid "New"
+msgstr "Nytt"
+
+#: admin/page-entries.php:448
+msgid "Mass edit actions"
+msgstr "Mass redigera åtgärder"
+
+#: admin/page-entries.php:451
+msgid "Recover from trash"
+msgstr "Lägg tillbaka från papperskorgen"
+
+#: admin/page-entries.php:452 admin/page-entries.php:469
+msgid "Remove permanently"
+msgstr "Radera permanent"
+
+#: admin/page-entries.php:455
+msgid "Mark as checked"
+msgstr "Markera som kontrollerad"
+
+#: admin/page-entries.php:458
+msgid "Mark as not checked"
+msgstr "Markera som inte kontrollerad"
+
+#: admin/page-entries.php:461
+msgid "Mark as spam"
+msgstr "Markera som spam"
+
+#: admin/page-entries.php:463
+msgid "Mark as not spam"
+msgstr "Markera som ej spam"
+
+#: admin/page-entries.php:465
+msgid "Check with Akismet"
+msgstr "Kontrollera med Akismet"
+
+#: admin/page-entries.php:467
+msgid "Move to trash"
+msgstr "Flytta till papperskorgen"
+
+#: admin/page-entries.php:474
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: admin/page-entries.php:477 admin/page-entries.php:735
+msgid "Empty Spam"
+msgstr "Töm spamkorgen"
+
+#: admin/page-entries.php:479 admin/page-entries.php:737
+msgid "Empty Trash"
+msgstr "Töm papperskorgen"
+
+#: admin/page-entries.php:492
+msgid "Showing:"
+msgstr "Visar:"
+
+#: admin/page-entries.php:493
+msgid "of"
+msgstr "av"
+
+#: admin/page-entries.php:560 admin/page-entries.php:576
+msgid "ID"
+msgstr "ID"
+
+#: admin/page-entries.php:566 admin/page-entries.php:582
+#: admin/tabs/readingtab.php:189
+msgid "Date"
+msgstr "Datum"
+
+#: admin/page-entries.php:568 admin/page-entries.php:584
+msgid "Entry (excerpt)"
+msgstr "Post (utdrag)"
+
+#: admin/page-entries.php:569 admin/page-entries.php:585
+msgid "Action"
+msgstr "Åtgärd"
+
+#: admin/page-entries.php:598
+msgid "No entries found."
+msgstr "Inga poster hittades"
+
+#: admin/page-export.php:27
+msgid "Export guestbook entries."
+msgstr "Exportera gästboks poster."
+
+#: admin/page-export.php:40
+msgid "Export guestbook entries from Gwolle-GB"
+msgstr "Exportera gästboks poster från Gwolle-GB"
+
+#: admin/page-export.php:47
+msgid "No entries were found."
+msgstr "Inga poster kunde hittas."
+
+#: admin/page-export.php:52
+#, php-format
+msgid "%d entries were found and will be exported."
+msgstr "%d poster hittades och kommer att exporteras."
+
+#: admin/page-export.php:55
+msgid "The exporter will preserve the following data per entry:"
+msgstr "Exporteringen kommer att bevara följande uppgifter per post:"
+
+#: admin/page-export.php:58 admin/page-import.php:372
+#: admin/page-import.php:413 frontend/write.php:139 frontend/write.php:146
+#: admin/tabs/formtab.php:105 admin/tabs/readingtab.php:152
+msgid "Name"
+msgstr "Namn"
+
+#: admin/page-export.php:59 admin/page-import.php:373
+#: admin/page-import.php:415
+msgid "E-Mail address"
+msgstr "E-post adress"
+
+#: admin/page-export.php:60 admin/page-import.php:374
+#: admin/page-import.php:416
+msgid "URL/Website"
+msgstr "URL / Webbsida"
+
+#: admin/page-export.php:62 admin/page-import.php:375
+#: admin/page-import.php:417
+msgid "Date of the entry"
+msgstr "Inläggets datum"
+
+#: admin/page-export.php:63 admin/page-import.php:376
+#: admin/page-import.php:418
+msgid "IP address"
+msgstr "IP adress"
+
+#: admin/page-export.php:64
+msgid "Host address"
+msgstr "Host adress"
+
+#: admin/page-export.php:65 admin/page-import.php:377
+#: admin/page-import.php:419 admin/tabs/formtab.php:185
+#: admin/tabs/uninstalltab.php:31
+msgid "Message"
+msgstr "Meddelande"
+
+#: admin/page-export.php:66 admin/page-import.php:379
+msgid "\"is checked\" flag"
+msgstr "”är kontrollerad” flagga"
+
+#: admin/page-export.php:67 admin/page-import.php:378
+msgid "\"is spam\" flag"
+msgstr "”är spam” flagga"
+
+#: admin/page-export.php:68
+msgid "\"is trash\" flag"
+msgstr "”är skräp” flagga"
+
+#: admin/page-export.php:70
+msgid "The exporter does not delete any data, so your data will still be here."
+msgstr "Exporteringen raderar inga data, så dina data kommer att finnas kvar"
+
+#: admin/page-export.php:75
+msgid "Export all entries from this website."
+msgstr "Exportera alla poster från denna webbsite"
+
+#: admin/page-export.php:79
+msgid "Start export"
+msgstr "Starta exporten"
+
+#: admin/page-gwolle-gb.php:34
+msgid "Overview"
+msgstr "Överblick"
+
+#: admin/page-gwolle-gb.php:48
+msgid "Entry total"
+msgstr "Post total"
+
+#: admin/page-gwolle-gb.php:51
+msgid "Entries total"
+msgstr "Poster totalt"
+
+#: admin/page-gwolle-gb.php:67
+msgid "Unlocked entry"
+msgstr "Upplåst post"
+
+#: admin/page-gwolle-gb.php:69
+msgid "Unlocked entries"
+msgstr "Upplåsta poster"
+
+#: admin/page-gwolle-gb.php:87
+msgid "New entries"
+msgstr "Nya poster"
+
+#: admin/page-gwolle-gb.php:103
+msgid "Spam entry"
+msgstr "Spam post"
+
+#: admin/page-gwolle-gb.php:105
+msgid "Spam entries"
+msgstr "Spam poster"
+
+#: admin/page-gwolle-gb.php:121
+msgid "Trashed entry"
+msgstr "Kastad post"
+
+#: admin/page-gwolle-gb.php:123
+msgid "Trashed entries"
+msgstr "Kastade poster"
+
+#: admin/page-gwolle-gb.php:136
+msgid "Write admin entry"
+msgstr "Skriv admin inlägg"
+
+#: admin/page-gwolle-gb.php:147 admin/tabs/emailtab.php:47
+msgid ""
+"Sorry, but the function <code>mail()</code> required to notify you by mail "
+"is not enabled in your PHP configuration. You might want to install a "
+"WordPress plugin that uses SMTP instead of <code>mail()</code>. Or you can "
+"contact your hosting provider to change this."
+msgstr ""
+"Tyvärr, men funktionen <code>mail()</code> som krävs för att meddela dig via "
+"e-post är inte aktiverat i din PHP-konfiguration. Du kanske vill installera "
+"en Wordpress plugin som använder SMTP istället för <code>mail()</ code>. "
+"Eller så kan du kontakta webbhotellet för att ändra på detta."
+
+#: admin/page-gwolle-gb.php:173
+msgid "Send me an e-mail when a new entry has been posted."
+msgstr "Skicka mig ett e-postmeddelande när en ny post skickats."
+
+#: admin/page-gwolle-gb.php:175
+msgid "Save setting"
+msgstr "Spara inställningarna"
+
+#: admin/page-gwolle-gb.php:180
+msgid "The following users have subscribed to this service:"
+msgstr "Följande användare har prenumererat på den här tjänsten:"
+
+#: admin/page-gwolle-gb.php:192 functions/function.log.php:173
+#: admin/tabs/emailtab.php:66 admin/tabs/emailtab.php:119
+msgid "You"
+msgstr "Du"
+
+#: admin/page-gwolle-gb.php:201
+msgid "No subscriber yet"
+msgstr "Inga medlemmar ännu"
+
+#: admin/page-gwolle-gb.php:221
+msgid "This is how you can get your guestbook displayed on your website:"
+msgstr "Så här kan du visa din gästbok på din webbplats:"
+
+#: admin/page-gwolle-gb.php:223
+msgid "Create a new page."
+msgstr "Skapa en ny sida."
+
+#: admin/page-gwolle-gb.php:224
+msgid ""
+"Choose a title and set &quot;[gwolle_gb]&quot; (without the quotes) as the "
+"content."
+msgstr ""
+"Välj en titel och ange &quot;[gwolle_gb]&quot; (utan citattecken) som "
+"innehåll."
+
+#: admin/page-gwolle-gb.php:225
+msgid ""
+"It is probably a good idea to disable comments on that page; otherwise, your "
+"visitors might get a little confused."
+msgstr ""
+"Det är förmodligen en bra idé att inaktivera kommentarer på denna sida; "
+"annars kan besökarna bli lite förvirrade."
+
+#: admin/page-gwolle-gb.php:232
+msgid "These entries will be visible for your visitors:"
+msgstr "Dessa poster kommer att vara synliga för dina besökare:"
+
+#: admin/page-gwolle-gb.php:234
+msgid "Marked as Checked."
+msgstr "Markera som godkänd."
+
+#: admin/page-gwolle-gb.php:235
+msgid "Not marked as Spam."
+msgstr "Inte markerad som spam."
+
+#: admin/page-gwolle-gb.php:236
+msgid "Not marked as Trash."
+msgstr "Inte markerad som skräp."
+
+#: admin/page-gwolle-gb.php:240
+msgid "The Main Menu counter counts the following entries:"
+msgstr "Huvudmeny räknaren räknar följande uppgifter:"
+
+#: admin/page-gwolle-gb.php:242
+msgid "Marked as Unchecked (You might want to moderate them)."
+msgstr "Markerade som Omarkerade (Du kanske vill moderera dem)."
+
+#: admin/page-gwolle-gb.php:243
+msgid "Not marked as Spam (You might want to check them)."
+msgstr "Ej markerat som skräppost (Du kanske vill kontrollera dem)."
+
+#: admin/page-gwolle-gb.php:244
+msgid "Not marked as Trash (You decide what goes to the trash)."
+msgstr ""
+"Inte markerats som skräp (Du bestämmer vad som ska till papperskorgen)."
+
+#: admin/page-gwolle-gb.php:251
+msgid "This plugin is being maintained by Marcel Pol from"
+msgstr ""
+
+#: admin/page-gwolle-gb.php:255
+#, fuzzy
+msgid "Review this plugin."
+msgstr "Insticksprogrammet är avaktiverat."
+
+#: admin/page-gwolle-gb.php:256
+msgid "If this plugin has any value to you, then please leave a review at"
+msgstr ""
+
+#: admin/page-gwolle-gb.php:257
+msgid "The plugin page at wordpress.org."
+msgstr ""
+
+#: admin/page-gwolle-gb.php:258
+msgid "the plugin page at wordpress.org"
+msgstr ""
+
+#: admin/page-gwolle-gb.php:261
+msgid "Donate to the EFF."
+msgstr "Donera till EFF."
+
+#: admin/page-gwolle-gb.php:262
+msgid ""
+"The Electronic Frontier Foundation is one of the few organisations that "
+"wants to keep the internet a free place."
+msgstr ""
+"Electronic Frontier Foundation är en av de få organisationer som vill "
+"behålla internet fritt."
+
+#: admin/page-gwolle-gb.php:263
+msgid "Please donate to the EFF."
+msgstr "Var snäll och gör en donation till EFF."
+
+#: admin/page-gwolle-gb.php:265 admin/page-gwolle-gb.php:267
+msgid "Donate to the maintainer."
+msgstr "Donera till den ansvarige."
+
+#: admin/page-gwolle-gb.php:266
+msgid ""
+"If you rather want to donate to the maintainer of the plugin, you can donate "
+"through PayPal."
+msgstr ""
+"Om du hellre vill donera till den som utvecklar pluginnet, kan du göra detta "
+"via PayPal."
+
+#: admin/page-gwolle-gb.php:267
+#, fuzzy
+msgid "Donate through"
+msgstr "Donera via PayPal till"
+
+#: admin/page-gwolle-gb.php:267
+msgid "PayPal"
+msgstr ""
+
+#: admin/page-gwolle-gb.php:268
+msgid "to"
+msgstr ""
+
+#: admin/page-gwolle-gb.php:338
+msgid "Welcome to the Guestbook!"
+msgstr "Välkommen till gästboken!"
+
+#: admin/page-gwolle-gb.php:339
+msgid "E-mail Notifications"
+msgstr "Meddelande om e-post"
+
+#: admin/page-gwolle-gb.php:340
+msgid "Review and Donate"
+msgstr ""
+
+#: admin/page-gwolle-gb.php:342 admin/page-gwolle-gb.php:343
+msgid "Help"
+msgstr "Hjälp"
+
+#: admin/page-gwolle-gb.php:344
+msgid "This plugin uses the following scripts/programs/images:"
+msgstr "Denna plugin använder följande scripts/program/bilder:"
+
+#: admin/page-gwolle-gb.php:349
+msgid "Gwolle Guestbook"
+msgstr "Gwolle gästbok"
+
+#: admin/page-import.php:90
+msgid ""
+"I'm sorry, but I wasn't able to import entries from DMSGuestbook "
+"successfully."
+msgstr ""
+"Jag är ledsen, men jag kunde inte importera poster från DMSGuestbook "
+"framgångsrikt."
+
+#: admin/page-import.php:92
+msgid "1 entry imported successfully from DMSGuestbook."
+msgstr "1 post har importerats från DMSGuestbook."
+
+#: admin/page-import.php:94
+#, php-format
+msgid "%d entries imported successfully from DMSGuestbook."
+msgstr "%d poster har importerats från DMSGuestbook."
+
+#: admin/page-import.php:98
+msgid ""
+"<strong>Nothing to import.</strong> The guestbook you've chosen does not "
+"contain any entries."
+msgstr ""
+"<strong>Inget att importera.</strong> Gästboken du valt innehåller ej några "
+"poster."
+
+#: admin/page-import.php:103
+msgid "I'm sorry, but I wasn't able to find the MySQL table of DMSGuestbook."
+msgstr ""
+"Jag är ledsen, men jag kunde inte hitta någon MySQL tabell till DMSGuestbook."
+
+#: admin/page-import.php:108
+msgid "You haven't chosen a guestbook. Please select one and try again."
+msgstr "Du har inte valt någon gästbok. Välj en och försök igen."
+
+#: admin/page-import.php:133 admin/page-import.php:181
+msgid ""
+"You haven't chosen how to import from WordPress comments. Please choose and "
+"try again."
+msgstr ""
+"Du har inte valt hur du vill importera från Wordpress kommentarer. Välj och "
+"försök igen."
+
+#: admin/page-import.php:168
+msgid ""
+"I'm sorry, but I wasn't able to import comments from that page successfully."
+msgstr ""
+"Jag är ledsen, men jag kunde inte importera kommentarer från den sidan "
+"framgångsrikt."
+
+#: admin/page-import.php:170
+msgid "1 entry imported successfully from WordPress comments."
+msgstr "1 post har importerats från Wordpress kommentarer."
+
+#: admin/page-import.php:172
+#, php-format
+msgid "%d entries imported successfully from WordPress comments."
+msgstr "%d poster har importerats från Wordpress kommentarer."
+
+#: admin/page-import.php:176
+msgid ""
+"<strong>Nothing to import.</strong> There seem to be no comments on this "
+"page, post or at all."
+msgstr ""
+"<strong>Inget att importera.</strong>Det verkar inte finnas några "
+"kommentarer på den här sidan, poster eller något alls."
+
+#: admin/page-import.php:195
+msgid "Your filesize is too large."
+msgstr "Din filstorlek är för stor."
+
+#: admin/page-import.php:216
+msgid "Invalid file format."
+msgstr "Ogiltigt filformat."
+
+#: admin/page-import.php:241
+msgid ""
+"It seems your CSV file is from an export that is not compatible with this "
+"version of Gwolle-GB."
+msgstr ""
+"Det verkar som om CSV-filen är från en version som inte är kompatibel med "
+"den här versionen av Gwolle-GB."
+
+#: admin/page-import.php:250 admin/page-import.php:284
+msgid "Your data seems to be corrupt. Import failed."
+msgstr "Dina data verkar vara skadade. Import misslyckades."
+
+#: admin/page-import.php:293
+msgid "I'm sorry, but I wasn't able to import entries from the CSV file."
+msgstr "Jag är ledsen, men jag kunde inte importera poster från CSV-filen."
+
+#: admin/page-import.php:295
+msgid "1 entry imported successfully from the CSV file."
+msgstr "1 post har importerats från CSV-filen."
+
+#: admin/page-import.php:297
+#, php-format
+msgid "%d entries imported successfully from the CSV file."
+msgstr "%d poster har importerats från CSV-filen."
+
+#: admin/page-import.php:306
+msgid "Your upload triggered the following error:"
+msgstr "Din uppladdning utlöste följande felmeddelande:"
+
+#: admin/page-import.php:319
+msgid "Import guestbook entries."
+msgstr "Importera gästboks poster."
+
+#: admin/page-import.php:338
+msgid "Import guestbook entries from DMSGuestbook"
+msgstr "Importera gästboksinlägg från DMSGuestbook"
+
+#: admin/page-import.php:367
+#, php-format
+msgid "%d entries were found and will be imported."
+msgstr "%d poster hittades och kommer att importeras."
+
+#: admin/page-import.php:370 admin/page-import.php:411
+msgid "The importer will preserve the following data per entry:"
+msgstr "Importören kommer att bevara följande uppgifter per post:"
+
+#: admin/page-import.php:381 admin/page-import.php:422
+msgid ""
+"However, data such as HTML formatting is not supported by Gwolle-GB and "
+"<strong>will not</strong> be imported."
+msgstr ""
+"Men data såsom HTML-formatering stöds ej av Gwolle-GB och <strong>kommer "
+"inte</strong> att importeras."
+
+#: admin/page-import.php:383 admin/page-import.php:426
+msgid ""
+"The importer does not delete any data, so you can go back whenever you want."
+msgstr ""
+"Importören tar inte bort några data, så att du kan gå tillbaka när du vill."
+
+#: admin/page-import.php:389
+msgid "Import all entries from DMSGuestbook."
+msgstr "Importera alla poster från DMSGuestbook."
+
+#: admin/page-import.php:393 admin/page-import.php:518
+#: admin/page-import.php:537
+msgid "Start import"
+msgstr "Starta importen"
+
+#: admin/page-import.php:396
+msgid "DMSGuestbook was not found."
+msgstr "DMSGuestbook kunde inte hittas."
+
+#: admin/page-import.php:405
+msgid "Import guestbook entries from WordPress comments"
+msgstr "Importera gästboksinlägg från Wordpress kommentarer"
+
+#: admin/page-import.php:414
+msgid "User ID"
+msgstr "Användar ID"
+
+#: admin/page-import.php:420
+msgid "\"approved\" status"
+msgstr "Status för godkännande"
+
+#: admin/page-import.php:424
+msgid "Spam comments will not be imported."
+msgstr "Spam kommentarer kommer inte att importeras."
+
+#: admin/page-import.php:429
+msgid "Select a page to import the comments from:"
+msgstr "Välj en sida att importera kommentarerna från:"
+
+#: admin/page-import.php:431 admin/page-import.php:469
+msgid "Select"
+msgstr "Välj"
+
+#: admin/page-import.php:455 admin/page-import.php:492
+msgid " Comments"
+msgstr "Kommentarer"
+
+#: admin/page-import.php:457 admin/page-import.php:494
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: admin/page-import.php:467
+msgid "Select a post to import the comments from:"
+msgstr "Välj en post att importera kommentarerna från:"
+
+#: admin/page-import.php:511
+msgid "Select where to import the comments from:"
+msgstr "Välj var du vill importera kommentarer från:"
+
+#: admin/page-import.php:512
+msgid "Comments from selected page."
+msgstr "Kommentarer från vald sida."
+
+#: admin/page-import.php:513
+msgid "Comments from selected post."
+msgstr "Kommentarer från vald post."
+
+#: admin/page-import.php:514
+msgid "All Comments"
+msgstr "Alla kommentarer"
+
+#: admin/page-import.php:526
+msgid "Import guestbook entries from Gwolle-GB"
+msgstr "Import gästboksinlägg från Gwolle-GB"
+
+#: admin/page-import.php:532
+msgid "Select a CSV file with exported entries to import again:"
+msgstr "Välj en CSV-fil med exporterade poster att importera igen:"
+
+#: admin/page-settings.php:326
+msgid "Form"
+msgstr "Formulär"
+
+#: admin/page-settings.php:327
+msgid "Reading"
+msgstr "Läsa"
+
+#: admin/page-settings.php:328
+msgid "Admin"
+msgstr "Admin"
+
+#: admin/page-settings.php:329 frontend/write.php:282 frontend/write.php:313
+msgid "Anti-spam"
+msgstr "Anti-spam"
+
+#: admin/page-settings.php:330
+msgid "E-mail"
+msgstr "E-post"
+
+#: admin/page-settings.php:331 admin/tabs/uninstalltab.php:45
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+#: frontend/posthandling.php:39
+msgid "Submitting a new guestbook entry is only allowed for logged-in users."
+msgstr ""
+"Att skicka ett nytt gästboksinlägg är endast tillåtet för inloggade "
+"användare."
+
+#: frontend/posthandling.php:208 frontend/posthandling.php:251
+msgid "There were errors submitting your guestbook entry."
+msgstr "Det blev ett fel med posten."
+
+#: frontend/posthandling.php:214
+msgid "Your name is not filled in, even though it is mandatory."
+msgstr "Ditt namn saknas trots att det är obligatoriskt."
+
+#: frontend/posthandling.php:217
+msgid "Your origin is not filled in, even though it is mandatory."
+msgstr "Din härkomster inte ifylld, trots att det är obligatoriskt."
+
+#: frontend/posthandling.php:220
+msgid ""
+"Your e-mail address is not filled in correctly, even though it is mandatory."
+msgstr ""
+"Din e-postadress är inte ifylld korrekt, trots att det är obligatoriskt."
+
+#: frontend/posthandling.php:223
+msgid "Your website is not filled in, even though it is mandatory."
+msgstr "Din webbadress är inte ifylld korrekt, trots att det är obligatoriskt."
+
+#: frontend/posthandling.php:226
+msgid "There is no message, even though it is mandatory."
+msgstr "Det finns inget meddelande, trots att det är obligatoriskt."
+
+#: frontend/posthandling.php:229
+msgid ""
+"The anti-spam question was not answered correctly, even though it is "
+"mandatory."
+msgstr ""
+"Anti-spam frågan besvarades inte korrekt, trots att det är obligatoriskt."
+
+#: frontend/posthandling.php:232
+msgid "The reCAPTCHA was not filled in correctly, even though it is mandatory."
+msgstr "ReCAPTCHA fylldes inte i korrekt, trots att det är obligatoriskt."
+
+#: frontend/posthandling.php:324
+msgid "Double post: An entry with the data you entered has already been saved."
+msgstr "Dubbel post: En post med de uppgifter du angav har redan sparats."
+
+#: frontend/posthandling.php:341
+msgid "Thank you for your entry."
+msgstr "Tack för ditt inlägg!"
+
+#: frontend/posthandling.php:343
+msgid "We will review it and unlock it in a short while."
+msgstr "Vi kommer att kontrollera och godkänna inlägget inom kort."
+
+#: frontend/posthandling.php:380 admin/tabs/emailtab.php:138
+msgid ""
+"\n"
+"Hello,\n"
+"\n"
+"There is a new guestbook entry at '%blog_name%'.\n"
+"You can check it at %entry_management_url%.\n"
+"\n"
+"Have a nice day.\n"
+"Your Gwolle-GB-Mailer\n"
+"\n"
+"\n"
+"Website address: %blog_url%\n"
+"User name: %user_name%\n"
+"User email: %user_email%\n"
+"Entry status: %status%\n"
+"Entry content:\n"
+"%entry_content%\n"
+msgstr ""
+"\n"
+"Hej Sonne och Åke!\n"
+"\n"
+"Det finns ett nytt inlägg från gästboken '%blog_name%'.\n"
+"Du kan läsa det på %entry_management_url%.\n"
+"\n"
+"Ha en bra dag!\n"
+"Din Gwolle-GB-Mailer\n"
+"\n"
+"\n"
+"Webbsite adress: %blog_url%\n"
+"Anv namn: %user_name%\n"
+"Anv e-post: %user_email%\n"
+"Inläggsstatus: %status%\n"
+"Inläggs innehåll:\n"
+"%entry_content%\n"
+
+#: frontend/posthandling.php:401 frontend/posthandling.php:467
+msgid "New Guestbook Entry"
+msgstr "Ny gästboks post"
+
+#: frontend/posthandling.php:448 admin/tabs/emailtab.php:198
+msgid ""
+"\n"
+"Hello,\n"
+"\n"
+"You have just posted a new guestbook entry at '%blog_name%'.\n"
+"\n"
+"Have a nice day.\n"
+"The editors at %blog_name%.\n"
+"\n"
+"\n"
+"Website address: %blog_url%\n"
+"User name: %user_name%\n"
+"User email: %user_email%\n"
+"Entry content:\n"
+"%entry_content%\n"
+msgstr ""
+"\n"
+"Hej,\n"
+"\n"
+"Du har just postat ett inlägg '%blog_name%'.\n"
+"\n"
+"Ha en bra dag!\n"
+"Redaktörerna på %blog_name%.\n"
+"\n"
+"\n"
+"Webbsides adress: %blog_url%\n"
+"Användar namn: %user_name%\n"
+"Användar e-post: %user_email%\n"
+"Post innehåll:\n"
+"%entry_content%\n"
+
+#: frontend/read.php:79
+msgid "Previous page"
+msgstr "Föregående sida"
+
+#: frontend/read.php:92 frontend/read.php:100 frontend/read.php:106
+#: frontend/read.php:121 frontend/read.php:132
+msgid "Page"
+msgstr "Sidan"
+
+#: frontend/read.php:103 frontend/read.php:133
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: frontend/read.php:144
+msgid "(no entries yet)"
+msgstr "Inga poster ännu"
+
+#: frontend/read.php:192
+msgid "from"
+msgstr "från"
+
+#: frontend/read.php:201
+msgid "wrote on"
+msgstr "skrev på"
+
+#: frontend/read.php:205
+msgid "on"
+msgstr "på"
+
+#: frontend/rss.php:84
+#, fuzzy
+msgid "Guestbook Entry by"
+msgstr "Gästboks inlägg"
+
+#: frontend/widget.php:12
+msgid "Displays the recent guestbook entries."
+msgstr "Visar de senaste gästboksinläggen."
+
+#: frontend/widget.php:28 frontend/widget.php:194
+msgid "Visit guestbook"
+msgstr "Läs vår gästbok"
+
+#: frontend/widget.php:147
+msgid "Click here to get to the guestbook."
+msgstr "Klicka här för att komma till gästboken."
+
+#: frontend/widget.php:210
+msgid "Title:"
+msgstr "Rubrik:"
+
+#: frontend/widget.php:216
+msgid "Number of entries:"
+msgstr "Antal inlägg:"
+
+#: frontend/widget.php:232
+msgid "Best entries to show:"
+msgstr "Bästa poster att visa:"
+
+#: frontend/widget.php:234
+msgid "List of entry_id's, comma-separated"
+msgstr "Lista över ost_id s, kommaseparerade"
+
+#: frontend/widget.php:240
+msgid "Show name of author."
+msgstr "Visa namn författare."
+
+#: frontend/widget.php:246
+msgid "Show date of entry."
+msgstr "Datum för posten."
+
+#: frontend/widget.php:250
+msgid "Number of words for each entry:"
+msgstr "Antal ord för varje post:"
+
+#: frontend/widget.php:266
+msgid "Link text:"
+msgstr "Länk text:"
+
+#: frontend/widget.php:272
+msgid "Select the page of the guestbook:"
+msgstr "Välj sida i gästboken:"
+
+#: frontend/widget.php:274
+msgid "Select page"
+msgstr "Välj sida"
+
+#: frontend/write.php:94
+msgid "Write a new entry."
+msgstr "Skriv ett nytt inlägg."
+
+#: frontend/write.php:102
+msgid "Log in to post an entry"
+msgstr "Logga in för att skriva en post"
+
+#: frontend/write.php:129 admin/tabs/formtab.php:58
+msgid "Write a new entry for the Guestbook"
+msgstr "Skriv ett nytt inlägg i gästboken"
+
+#: frontend/write.php:158 frontend/write.php:165 admin/tabs/formtab.php:125
+#: admin/tabs/readingtab.php:164
+msgid "City"
+msgstr "Stad"
+
+#: frontend/write.php:177 frontend/write.php:184 admin/tabs/formtab.php:145
+msgid "Email"
+msgstr "E-post"
+
+#: frontend/write.php:283
+msgid "Question:"
+msgstr "Fråga:"
+
+#: frontend/write.php:289
+msgid "Answer"
+msgstr "Svar"
+
+#: frontend/write.php:333
+msgid "Submit"
+msgstr "Skicka"
+
+#: frontend/write.php:342 admin/tabs/formtab.php:74
+msgid ""
+"\n"
+"Fields marked with * are obligatory.\n"
+"Your E-mail address wil not be published.\n"
+"For security reasons we save the ip address %ip%.\n"
+"It might be that your entry will only be visible in the guestbook after we "
+"reviewed it.\n"
+"We reserve our right to edit, delete, or not publish entries.\n"
+msgstr ""
+"\n"
+"Fält markerade med * är obligatoriska.\n"
+"Din e-postadress kommer inte att publiceras.\n"
+"Av säkerhetsskäl sparar vi IP-adressen % ip%.\n"
+"Det kan hända att din artikel enbart kommer att vara synlig i gästboken "
+"efter att vi granskat den.\n"
+"Vi reserverar oss rätten att redigera, ta bort eller att inte publicera "
+"poster.\n"
+
+#: functions/function.log.php:94
+msgid "Entry has been locked."
+msgstr "Posten är låst."
+
+#: functions/function.log.php:95
+msgid "Entry has been checked."
+msgstr "Posten är kontrollerad."
+
+#: functions/function.log.php:96
+msgid "Entry marked as spam."
+msgstr "Posten är märkt som spam."
+
+#: functions/function.log.php:97
+msgid "Entry marked as not spam."
+msgstr "Posten är märkt som ej spam."
+
+#: functions/function.log.php:98
+msgid "Entry has been edited."
+msgstr "Posten har blivit redigerad."
+
+#: functions/function.log.php:99
+msgid "Imported from DMSGuestbook"
+msgstr "Importerad från DMSGuestbook"
+
+#: functions/function.log.php:100
+msgid "Imported from WordPress comments"
+msgstr "Importerad från Wordpress kommentarer"
+
+#: functions/function.log.php:101
+msgid "Imported from Gwolle-GB"
+msgstr "Importerad från Gwolle-GB"
+
+#: functions/function.log.php:102
+msgid "Exported to CSV file"
+msgstr "Exporterad som CSV-fil"
+
+#: functions/function.log.php:103
+msgid "Entry has been trashed."
+msgstr "Posten har blivit raderad."
+
+#: functions/function.log.php:104
+msgid "Entry has been untrashed."
+msgstr "Posten har blivit avraderad."
+
+#: functions/function.misc.php:63
+msgid "No content to display. This entry is empty."
+msgstr "Inget innehåll att visa. Den här posten är tom."
+
+#: admin/tabs/admintab.php:26
+msgid "Entries per page in the admin"
+msgstr "Inlägg per sida i admin"
+
+#: admin/tabs/admintab.php:41
+msgid "Number of entries shown in the admin."
+msgstr "Antal poster som visas i admin."
+
+#: admin/tabs/admintab.php:46
+msgid "Entry icons"
+msgstr "Post ikoner"
+
+#: admin/tabs/admintab.php:52
+msgid "Show entry icons"
+msgstr "Visa post ikoner"
+
+#: admin/tabs/admintab.php:54
+msgid ""
+"These icons are shown in every entry row of the admin list, so that you know "
+"its status (checked, spam and trash)."
+msgstr ""
+"Dessa ikoner visas i varje post rad i admin listan, så att du vet dess "
+"status (markerad spam och skräp)."
+
+#: admin/tabs/admintab.php:61 admin/tabs/antispamtab.php:140
+#: admin/tabs/emailtab.php:235 admin/tabs/formtab.php:252
+#: admin/tabs/readingtab.php:229
+msgid "Save settings"
+msgstr "Spara ändringar"
+
+#: admin/tabs/antispamtab.php:26
+msgid "Moderate Guestbook"
+msgstr "Redigerad  gästbok"
+
+#: admin/tabs/antispamtab.php:34
+msgid "Moderate entries before publishing them."
+msgstr "Redigera poster innan du publicerar dem."
+
+#: admin/tabs/antispamtab.php:38
+msgid ""
+"New entries have to be unlocked by a moderator before they are visible to "
+"the public."
+msgstr ""
+"Nya poster måste låsas upp av en moderator innan de är synliga för "
+"allmänheten."
+
+#: admin/tabs/antispamtab.php:40
+msgid ""
+"It is recommended that you turn this on, because you are responsible for the "
+"content on your website."
+msgstr ""
+"Vi rekommenderar att du aktiverar detta, eftersom du är ansvarig för "
+"innehållet på din webbplats."
+
+#: admin/tabs/antispamtab.php:50
+msgid "Learn more about Akismet..."
+msgstr "Läs mer om Akismet ..."
+
+#: admin/tabs/antispamtab.php:50 admin/tabs/antispamtab.php:106
+msgid "What's that?"
+msgstr "Vad är detta?"
+
+#: admin/tabs/antispamtab.php:60
+msgid ""
+"Akismet helps you to fight spam. It's free and easy to install. Download and "
+"install it today to stop spam in your guestbook."
+msgstr ""
+"Akismet hjälper dig att kontrollera skräppost. Det är gratis och lätt att "
+"installera. Ladda ner och installera det i dag för att stoppa skräppost i "
+"din gästbok."
+
+#: admin/tabs/antispamtab.php:63
+#, php-format
+msgid ""
+"Sorry, wasn't able to locate your <strong>WordPress API key</strong>. You "
+"can enter it at the <a href=\"%s\">Akismet configuration page</a>."
+msgstr ""
+"Tyvärr, kunde inte hitta din <strong>Wordpress API-nyckel</ strong>. Du kan "
+"ange det på <a href=\"%s\">Akismet konfigurationssida</a>."
+
+#: admin/tabs/antispamtab.php:72
+msgid "Use Akismet"
+msgstr "Använd Akismet"
+
+#: admin/tabs/antispamtab.php:74
+msgid ""
+"The WordPress API key has been found, so you can start using Akismet right "
+"now."
+msgstr ""
+"Wordpress API-nyckel har hittats, så att du kan börja använda Akismet just "
+"nu."
+
+#: admin/tabs/antispamtab.php:85
+msgid "Custom Anti-Spam Security Question"
+msgstr "Anpassad anti-spam säkerhetsfråga"
+
+#: admin/tabs/antispamtab.php:88
+msgid "12 + six ="
+msgstr "12 + sex ="
+
+#: admin/tabs/antispamtab.php:89
+msgid "Custom security question to battle spam."
+msgstr "Anpassad säkerhetsfråga för att motverka spam."
+
+#: admin/tabs/antispamtab.php:91
+msgid "18"
+msgstr "18"
+
+#: admin/tabs/antispamtab.php:92
+msgid "The answer to your security question."
+msgstr "Svaret på din säkerhetsfråga."
+
+#: admin/tabs/antispamtab.php:94
+msgid ""
+"You can ask your visitors to answer a custom security question, so only real "
+"people can post an entry."
+msgstr ""
+"Du kan be dina besökare att svara på en fråga som ökar säkerheten, så att "
+"endast verkliga människor kan skicka bublicera en post."
+
+#: admin/tabs/antispamtab.php:106
+msgid "Learn more about reCAPTCHA..."
+msgstr "Lär dig mer om reCAPTCHA..."
+
+#: admin/tabs/antispamtab.php:117
+msgid "<strong>Site (Public)</strong> key of your reCAPTCHA account"
+msgstr "<strong>Site (Public)</strong> nyckel för ditt reCAPTCHA konto"
+
+#: admin/tabs/antispamtab.php:120
+msgid "<strong>Secret</strong> key of your reCAPTCHA account"
+msgstr "<strong>Secret</strong> nyckel för ditt reCAPTCHA konto"
+
+#: admin/tabs/antispamtab.php:123
+msgid ""
+"reCAPTCHA is a way to have visitors fill in a field with a few letters or "
+"numbers. It is a way to make sure that you have a human visitor and not a "
+"spambot. Not every visitor will appreciate it though, some will consider it "
+"unfriendly."
+msgstr ""
+"reCAPTCHA är ett sätt att få besökarna fylla i ett fält med några bokstäver "
+"eller siffror. Det är ett sätt att se till att du har en mänsklig besökare "
+"och inte en spambot. Alla besökare kommer inte att uppskatta detta ochvissa "
+"kan tycka att det är ovänligt eller stötande."
+
+#: admin/tabs/antispamtab.php:125
+msgid "The keys can be found at your"
+msgstr "Nycklarna kan hittas på din"
+
+#: admin/tabs/antispamtab.php:125
+msgid "Go to my reCAPTCHA sites..."
+msgstr "Gå till mina reCAPTCHA platser ..."
+
+#: admin/tabs/antispamtab.php:125
+msgid "reCAPTCHA sites overview"
+msgstr "reCAPTCHA platser översikt"
+
+#: admin/tabs/antispamtab.php:130
+msgid ""
+"<strong>Warning:</strong> Apparently you already use a reCAPTCHA library in "
+"your theme or another plugin. The reCAPTCHA library in Gwolle-GB will not be "
+"loaded, and the found one will be used instead. This might give unexpected "
+"results."
+msgstr ""
+"<strong>Varning:</strong> Tydligen använder du redan ett reCAPTCHA bibliotek "
+"i ditt tema eller i en annan plugin. reCAPTCHA biblioteket i Gwolle-GB "
+"kommer inte att laddas, och den som hittades kommer att användas i stället. "
+"Detta kan ge oväntade resultat."
+
+#: admin/tabs/antispamtab.php:132
+msgid ""
+"<strong>Warning:</strong> Apparently you already use a reCAPTCHA library in "
+"your theme or another plugin. However, this is an old and incompatible "
+"version, so reCAPTCHA will not be used for Gwolle-GB."
+msgstr ""
+"<strong>Varning:</strong> Tydligen använder du redan ett reCAPTCHA bibliotek "
+"i ditt tema eller annan plugin. Detta är dock en gammal och inkompatibel "
+"version, så reCAPTCHA kommer inte att användas för Gwolle-GB."
+
+#: admin/tabs/emailtab.php:26
+msgid "Admin mail from address"
+msgstr "Admin e-post från adress"
+
+#: admin/tabs/emailtab.php:32
+msgid ""
+"You can set the email address that is used for the From header of the mail "
+"that a notification subscriber gets on new entries."
+msgstr ""
+"Du kan ställa in den e-postadress som används för Från rubriken för den e-"
+"post som en anmäld abonnent får på nya poster."
+
+#: admin/tabs/emailtab.php:34
+msgid "By default the main admin address is used from General >> Settings."
+msgstr ""
+"Som standard används huvud admin adressen från General >> inställningar."
+
+#: admin/tabs/emailtab.php:41
+msgid "Unsubscribe moderators"
+msgstr "Avanmäl redaktörer"
+
+#: admin/tabs/emailtab.php:51
+msgid "Unsubscribe User"
+msgstr "Avanmäl användare"
+
+#: admin/tabs/emailtab.php:73
+msgid "These users have subscribed to the notification emails."
+msgstr "Dessa användare har anslutit sig till e-postmeddelanden."
+
+#: admin/tabs/emailtab.php:74
+msgid ""
+"Select a user if you want that user to unsubscribe from the notification "
+"emails."
+msgstr ""
+"Välj en användare om du vill avregistrera användaren från e-postmeddelanden."
+
+#: admin/tabs/emailtab.php:79
+msgid "Subscribe moderators"
+msgstr "Anmäl redaktörer"
+
+#: admin/tabs/emailtab.php:82
+msgid "Subscribe User"
+msgstr "Anmäl Användare"
+
+#: admin/tabs/emailtab.php:125
+msgid "You can subscribe a moderator to the notification emails."
+msgstr "Du kan prenumerera som redaktör till e-postmeddelanden."
+
+#: admin/tabs/emailtab.php:126
+msgid "Select a user that you want subscribed to the notification emails."
+msgstr "Välj en användare som du vill anmäla till e-postmeddelanden."
+
+#: admin/tabs/emailtab.php:127
+msgid ""
+"You will only see users with the roles of Administrator, Editor and Author, "
+"who have the capability 'moderate_comments' ."
+msgstr ""
+"Du ser bara användare som har rollerna administratör, redaktör och "
+"författare, och har förmågan \"moderate_comments\"."
+
+#: admin/tabs/emailtab.php:133
+msgid "Admin mail content"
+msgstr "Admin post innehåll"
+
+#: admin/tabs/emailtab.php:160
+msgid ""
+"You can set the content of the mail that a notification subscriber gets on "
+"new entries. The following tags are supported:"
+msgstr ""
+"Du kan ställa in innehållet i e-postmeddelandet som abonnenter ska få på nya "
+"poster. Följande taggar stöds:"
+
+#: admin/tabs/emailtab.php:175
+msgid "Mail Author"
+msgstr "Post författare"
+
+#: admin/tabs/emailtab.php:183
+msgid "Mail the author with a confirmation email."
+msgstr "Maila författaren med en e-postbekräftelse."
+
+#: admin/tabs/emailtab.php:187
+msgid ""
+"The author of the guestbook entry will receive an email after posting. It "
+"will have a copy of the entry."
+msgstr ""
+"Gästbokens författare kommer att få ett e-postmeddelande efter att "
+"publiceringen. Det kommer att visa en kopia av posten."
+
+#: admin/tabs/emailtab.php:193
+msgid "Author mail content"
+msgstr "Postinnehåll författare"
+
+#: admin/tabs/emailtab.php:218
+msgid ""
+"You can set the content of the mail that the author of the entry will "
+"receive. The following tags are supported:"
+msgstr ""
+"Du kan ställa in innehållet i e-postmeddelandet som författaren till posten "
+"kommer att få. Följande taggar stöds:"
+
+#: admin/tabs/formtab.php:26
+msgid "Require Login"
+msgstr "Inloggning krävs"
+
+#: admin/tabs/formtab.php:33
+msgid "Require user to be logged in."
+msgstr "Användaren måste vara inloggad."
+
+#: admin/tabs/formtab.php:35
+msgid "Only allow logged-in users to add a guestbook entry."
+msgstr "Tillåt endast inloggade användare att skriva i gästboken."
+
+#: admin/tabs/formtab.php:40
+msgid "Labels float"
+msgstr "Flytande etiketter"
+
+#: admin/tabs/formtab.php:47
+msgid "Labels in the form float to the left."
+msgstr "Etiketter i formuläret flyter till vänster."
+
+#: admin/tabs/formtab.php:49
+msgid ""
+"Labels in the form float to the left. Otherwise the labels will be above the "
+"input-fields."
+msgstr ""
+"Etiketter i formuläret flyter till vänster. Annars kommer etiketterna att "
+"vara ovanför inmatningsfältet."
+
+#: admin/tabs/formtab.php:54
+msgid "Header Text"
+msgstr "Rubrik text"
+
+#: admin/tabs/formtab.php:63
+msgid "You can set the header that is shown on top of the form."
+msgstr "Du kan ställa in rubriken som visas överst i formuläret."
+
+#: admin/tabs/formtab.php:69
+msgid "Notice Text"
+msgstr "Text notis"
+
+#: admin/tabs/formtab.php:86
+msgid "You can set the content of the notice that gets shown below the form."
+msgstr ""
+"Du kan ställa in innehållet i kallelsen som får visas under formuläret."
+
+#: admin/tabs/formtab.php:88
+msgid "You can use the tag %ip% to show the ip address."
+msgstr "Du kan använda taggen% ip% för att visa IP-adressen."
+
+#: admin/tabs/formtab.php:101
+msgid "Configure the form that is shown to visitors."
+msgstr "Konfigurera det formulär som visas för besökare."
+
+#: admin/tabs/formtab.php:112 admin/tabs/formtab.php:132
+#: admin/tabs/formtab.php:152 admin/tabs/formtab.php:172
+#: admin/tabs/formtab.php:192 admin/tabs/formtab.php:212
+#: admin/tabs/formtab.php:227 admin/tabs/formtab.php:242
+#: admin/tabs/readingtab.php:147 admin/tabs/readingtab.php:159
+#: admin/tabs/readingtab.php:171 admin/tabs/readingtab.php:183
+#: admin/tabs/readingtab.php:196 admin/tabs/readingtab.php:209
+#: admin/tabs/readingtab.php:221
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: admin/tabs/formtab.php:120 admin/tabs/formtab.php:140
+#: admin/tabs/formtab.php:160 admin/tabs/formtab.php:180
+#: admin/tabs/formtab.php:200
+msgid "Mandatory"
+msgstr "Obligatorisk"
+
+#: admin/tabs/formtab.php:205
+msgid "BBcode and Emoji"
+msgstr "BBcode och Emoji"
+
+#: admin/tabs/formtab.php:215
+msgid "Will only be shown if the Message is enabled."
+msgstr "Kommer endast att visas om meddelandet har aktiverats."
+
+#: admin/tabs/formtab.php:220
+msgid "Custom Anti-spam"
+msgstr "Anpassad Anti-Spam"
+
+#: admin/tabs/formtab.php:230 admin/tabs/formtab.php:245
+msgid "When enabled it is mandatory."
+msgstr "När den är aktiverad är det obligatoriskt."
+
+#: admin/tabs/formtab.php:235 admin/tabs/uninstalltab.php:63
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: admin/tabs/readingtab.php:26
+msgid "Entries per page on the frontend"
+msgstr "Inlägg per sida på huvudsidan"
+
+#: admin/tabs/readingtab.php:41
+msgid "Number of entries shown on the frontend."
+msgstr "Antal poster som visas på huvudsidan."
+
+#: admin/tabs/readingtab.php:46
+msgid "Length of the entry content"
+msgstr "Längden på post-innehållet"
+
+#: admin/tabs/readingtab.php:56
+msgid "Unlimited Words"
+msgstr "Obegränsat med ord"
+
+#: admin/tabs/readingtab.php:63
+msgid "Words"
+msgstr "Ord"
+
+#: admin/tabs/readingtab.php:69
+msgid "Maximum length of the entry content in words."
+msgstr "Maxlängden på innehållet i posten i ord."
+
+#: admin/tabs/readingtab.php:70
+msgid "Please be aware that this will strip linebreaks as well."
+msgstr "Var medveten om att detta kommer att ta bort radbrytningar också."
+
+#: admin/tabs/readingtab.php:76
+msgid "Line breaks"
+msgstr "Radbrytningar"
+
+#: admin/tabs/readingtab.php:83
+msgid "Show line breaks."
+msgstr "Visa radbrytningar."
+
+#: admin/tabs/readingtab.php:85
+msgid ""
+"Show line breaks as the entry authors entered them. (May result in very long "
+"entries. Is turned off by default.)"
+msgstr ""
+"Visa radbrytningar så som författarna skrivit dem. (Kan leda till mycket "
+"långa texter. Är avstängd som standard.)"
+
+#: admin/tabs/readingtab.php:90
+msgid "Smileys"
+msgstr "Smileys"
+
+#: admin/tabs/readingtab.php:97
+msgid "Display smileys as images."
+msgstr "Visa Smileys som bilder."
+
+#: admin/tabs/readingtab.php:99
+#, php-format
+msgid ""
+"Replaces smileys in entries like :) with their image %s. Uses the WP smiley "
+"replacer, so check on that one if you'd like to add new/more smileys."
+msgstr ""
+"Ersätter Smileys i poster som :) med sin bild %s. Använd WP:s Smiley "
+"ersättare, starta den om du vill lägga till nya eller fler Smileys."
+
+#: admin/tabs/readingtab.php:104
+msgid "Links"
+msgstr "Länkar"
+
+#: admin/tabs/readingtab.php:111
+msgid "Link authors' name to their website."
+msgstr "Länk till författarnas hemsida."
+
+#: admin/tabs/readingtab.php:113
+msgid ""
+"The author of an entry can set his/her website. If this setting is checked, "
+"his/her name will be a link to that website."
+msgstr ""
+"Författaren till en post kan ställa in hans / hennes hemsida. Om den här "
+"inställningen är markerad, kommer hans / hennes namn att vara en länk till "
+"webbplatsen."
+
+#: admin/tabs/readingtab.php:118
+msgid "Admin Entry Styling"
+msgstr "Admin post styling"
+
+#: admin/tabs/readingtab.php:125
+msgid "Admin entries get a special CSS styling."
+msgstr "Admin poster får en speciell CSS."
+
+#: admin/tabs/readingtab.php:127
+msgid ""
+"Admin entries get a special CSS styling. It will get a lightgrey background."
+msgstr ""
+"Admin poster får en speciell CSS. Det kommer att bli en ljusgrå bakgrund."
+
+#: admin/tabs/readingtab.php:135
+msgid "Configure the parts of the entries that are shown to visitors."
+msgstr "Konfigurera de delar av de uppgifter som visas för besökare."
+
+#: admin/tabs/readingtab.php:140
+msgid "Avatar"
+msgstr "Avatar"
+
+#: admin/tabs/readingtab.php:176
+msgid "Date and Time"
+msgstr "Datum och tid"
+
+#: admin/tabs/readingtab.php:184
+msgid "Setting this will show the date and the time of the entry."
+msgstr "Detta kommer att visa datum och tidpunkt för angivelsen."
+
+#: admin/tabs/readingtab.php:197
+msgid ""
+"Setting this will show the date of the entry. If Date and Time above are "
+"enabled, that setting has preference."
+msgstr ""
+"Detta kommer att visa postens inläggningsdatum. Om datum och tid ovan är "
+"aktiverade, har den inställningen företräde."
+
+#: admin/tabs/readingtab.php:202
+msgid "Content"
+msgstr "Innehåll"
+
+#: admin/tabs/readingtab.php:214
+msgid "Edit link"
+msgstr "Redigera länk"
+
+#: admin/tabs/readingtab.php:222
+msgid ""
+"A link to the editor will be added to the content. Only visible for "
+"moderators."
+msgstr ""
+"En länk till redaktören kommer att läggas till innehållet. Visas endast för "
+"moderatorer."
+
+#: admin/tabs/uninstalltab.php:34
+msgid "The entries and settings have been removed."
+msgstr "Posterna och inställningar har tagits bort."
+
+#: admin/tabs/uninstalltab.php:35
+msgid "The plugin is deactivated."
+msgstr "Insticksprogrammet är avaktiverat."
+
+#: admin/tabs/uninstalltab.php:36
+msgid "You can now go to your"
+msgstr "Du kan nu gå till din"
+
+#: admin/tabs/uninstalltab.php:36
+msgid "dashboard."
+msgstr "instrumentpanel."
+
+#: admin/tabs/uninstalltab.php:47
+msgid ""
+"Uninstalling means that all database entries are removed (settings and "
+"entries)."
+msgstr ""
+"Avinstallation innebär att alla databasposter tas bort (inställningar och "
+"poster)."
+
+#: admin/tabs/uninstalltab.php:49
+msgid "This can <strong>not</strong> be undone."
+msgstr "Detta kan <strong>inte</ strong> ångras."
+
+#: admin/tabs/uninstalltab.php:55
+msgid "Confirm"
+msgstr "Godkänn"
+
+#: admin/tabs/uninstalltab.php:58
+msgid "Yes, I'm absolutely sure of this. Proceed!"
+msgstr "Ja, jag är helt säker på detta. Fortsätt!"
+
+#: admin/tabs/uninstalltab.php:66
+msgid "Also delete the reCAPTCHA keys"
+msgstr "Tag också bort reCAPTCHA nycklar"
+
+#: admin/tabs/uninstalltab.php:73
+msgid "Uninstall &raquo;"
+msgstr "Avinstallera &raquo;"
+
+#~ msgid "Donate"
+#~ msgstr "Donera"
